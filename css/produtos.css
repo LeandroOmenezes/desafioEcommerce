@@ -133,7 +133,7 @@ btn {
 .login-btn {
     border-color: var(--blue-color);
     color: var(--blue-color);
-    display: none;
+    background-color: var(--white-color);
 }
 /* end topo */
 
