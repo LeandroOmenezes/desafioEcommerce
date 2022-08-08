@@ -27,7 +27,7 @@ body {
     background-color: var(--gray-color);
 }
 
-/* genericos */
+/*tags genéricas */
 
 h1 {
     font-size: 2rem;
@@ -83,7 +83,7 @@ img {
 .bold {
     font-weight: bold;
 }
-/* end genericos */
+/* fim genéricas */
 
 /* topo -- em comum em todas as abas */
 .logo {
@@ -134,7 +134,7 @@ img {
     color: var(--blue-color);
     background-color: var(--white-color);
 }
-/* end topo */
+/* fim topo */
 
 /* footer -- em comum em todas as abas */
 
@@ -158,7 +158,7 @@ img {
 .container-info-list ul li a {
     color: rgba(0, 0, 0, 0.8);
 }
-/* end list */
+/* fim list */
 
 /* input */
 .container-info-form p {
@@ -226,7 +226,7 @@ form div.single-input {
     color: var(--white-color);
 }
 
-/* end input */
+/* fim input */
 
 .rodape {
     text-align: center;
@@ -251,7 +251,7 @@ form div.single-input {
     transform: scale(1.2);
     color: var(--blue-color3);
 }
-/* end footer */
+/* fim footer */
 
 @media screen and (min-width: 503px) {
     h1 {
@@ -282,7 +282,7 @@ form div.single-input {
         border: 1px solid var(--gray-color);
         border-radius: 0 20px 20px 0;
     }
-    /* end topo */
+    /* fim topo */
 
     /* footer */
     .info-contato {

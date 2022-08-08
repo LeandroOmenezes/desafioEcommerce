@@ -22,7 +22,7 @@
     color: var(--white-color);
 }
 
-/* end banner */
+/* fim banner */
 
 /* main exibição de itens */
 .container-section-items {
@@ -86,7 +86,7 @@
     text-transform: capitalize;
     
 }
-/* end exibição de itens */
+/* fim exibição de itens */
 
 @media screen and (min-width: 503px) {
     /* banner */
@@ -101,7 +101,7 @@
         margin-top: 1rem;
         color: var(--white-color);
     }
-    /* end banner */
+    /* fim banner */
 
     /* main exibição de itens */
     .container-item {

@@ -48,7 +48,7 @@ main .container {
     letter-spacing: 1px;
     cursor: pointer;
 }
-/* end main */
+/* fim main */
 
 @media screen and (min-width: 1006px) {
     header {
@@ -69,5 +69,5 @@ main .container {
         width: 100%;
         height: 56px;
     }
-    /* end main */
+    /* fim main */
 }

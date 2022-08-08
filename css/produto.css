@@ -4,7 +4,7 @@
     color: var(--blue-color);
     display: none;
 }
-/* end topo */
+/* fim topo */
 
 /* main */
 main .container {
@@ -89,7 +89,7 @@ main .container {
     height: 69%;
     background-color: var(--black-color);
 }
-/* end main */
+/* fim main */
 
 @media screen and (min-width: 503px) {
     /* main exibição de itens */
@@ -122,7 +122,7 @@ main .container {
     .container-items {
         max-height: 250px;
     }
-    /* end main */
+    /* fim main */
 }
 
 @media screen and (min-width: 1006px) {
@@ -154,5 +154,5 @@ main .container {
         width: 50%;
         justify-content: center;
     }
-    /* end main */
+    /* fim main */
 }

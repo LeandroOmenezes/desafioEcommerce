@@ -5,7 +5,7 @@
     background-color: var(--white-color);
 }
 
-/* end topo */
+/* fim topo */
 
 /* main */
 main .container {
@@ -109,7 +109,7 @@ main .container {
 .item .editar:hover {
     color: var(--blue-color3);
 }
-/* end main */
+/* fim main */
 
 @media screen and (min-width: 503px) {
     /* main exibição de itens */
@@ -123,7 +123,7 @@ main .container {
         margin-bottom: 0;
     }
 
-    /* end main */
+    /* fim main */
 }
 
 @media screen and (min-width: 1006px) {
