@@ -91,7 +91,7 @@
 @media screen and (min-width: 503px) {
     /* banner */
     .banner {
-        height: 352px;
+        height: 400px;
         padding-bottom: 2rem;
     }
     .banner .container h2 {

@@ -49,7 +49,7 @@ function exibirId(num) {
 }
 
 function teste(btn) {
-    btn.addEventListener("click", function (e) {
-        console.log(e.currentTarget.parentElement.dataset.id);
+    btn.addEventListener("click", function (evento) {
+        console.log(evento.currentTarget.parentElement.dataset.id);
     });
 }

@@ -32,7 +32,7 @@ window.addEventListener("load", function () {
     
     imgProduto.style.backgroundImage = `url(${url})`;
 
-    // end produto principal
+    // fim produto principal
 
     // adicionando produtos Similares
 

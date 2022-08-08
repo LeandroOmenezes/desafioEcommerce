@@ -59,13 +59,15 @@ main .container {
     letter-spacing: 0.1px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
+    
 }
 .container-info-form form textarea::placeholder {
     color: rgba(0, 0, 0, 0.5);
 }
-.single-input2 input:focus,
-.form textarea:focus {
+.single-input2 input:hover,
+.form textarea:hover {
     border-color: var(--blue-color);
+    cursor: pointer;
 }
 .form textarea::placeholder {
     color: rgba(0, 0, 0, 0.5);
