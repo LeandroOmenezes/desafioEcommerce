@@ -1,0 +1,11 @@
+{
+  "name": "desafio_ecomerce",
+  "version": "1.0.0",
+  "description": "Alura Geek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leandro Menezes",
+  "license": "ISC"
+}

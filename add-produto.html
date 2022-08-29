@@ -15,7 +15,7 @@
                 <div class="container">
                     <a href="index.html"><img src="./images/logo.png" alt="" class="logo"></a>
                     <div class="container-input">
-                        <button class="menuADM-btn btn">Menu Administrador</button>
+                        <a href="login.html"><button class="menuADM-btn btn">Menu Administrador</button></a>
                         <div>
                             <input type="text" maxlength="35" placeholder="O que deseja encontrar?">
                             <button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -26,10 +26,10 @@
         </header>
         <main>
             <div class="container">
-                <form action="#" class="form">
+                <form class="form" data-form>
                     <h3>Adicionar novo produto</h3>
                     <div class="single-input2">
-                        <input type="text" id="name" maxlength="50" required>
+                        <input type="text" id="name" maxlength="50" required data-url>
                         <label for="name">URL da imagem</label>
                     </div>
                     <!--div class="single-input2">
@@ -37,15 +37,15 @@
                         <label for="name">Categoria</label>
                     </div-->
                     <div class="single-input2">
-                        <input type="text" id="name" maxlength="50" required>
+                        <input type="text" id="name" maxlength="50" required data-nome>
                         <label for="name">Nome do produto</label>
                     </div>
                     <div class="single-input2">
-                        <input type="text" id="name" maxlength="50" required>
+                        <input type="text" id="name" maxlength="50" required data-preco>
                         <label for="name">Preço do produto</label>
                     </div>
                     <!--textarea name="descricao" placeholder="Descrição do produto"></textarea-->
-                    <button type="submit" class="add-produto-btn btn">Adicionar produto</button>
+                    <button type="submit" class="add-produto-btn btn" data-btn-form>Adicionar produto</button>
                 </form>
             </div>
         </main>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="container-info-form">
                         <p class="bold titulo">Fale conosco</p>
-                        <form action="#">
+                        <form>
                             <div class="single-input">
                                 <input type="text" id="name" maxlength="50" required>
                                 <label for="name">Nome</label>
@@ -84,5 +84,6 @@
                 </div>
             </div>
         </footer>
+        <script type="module" src="./controllers/cria-produtos-controller.js"></script>
     </body>
 </html>

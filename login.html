@@ -30,8 +30,8 @@
             <div class="login-container">
                 <form action="#">
                     <p id="p" class="titulo bold">Iniciar sessão</p>
-                    <input type="email" placeholder="Escreva seu email">
-                    <input type="password" placeholder="Digite sua senha">
+                    <input type="email" placeholder="Escreva seu email" required>
+                    <input type="password" placeholder="Digite sua senha" required>
                     <button type="submit" class="entrar-btn btn">Entrar</button>
                 </form>
             </div>
@@ -53,12 +53,12 @@
                 </div>
                 <div class="container-info-form">
                     <p class="bold titulo">Fale conosco</p>
-                    <form action="#">
+                    <form>
                         <div class="single-input">
                             <input type="text" id="name" maxlength="50" required>
                             <label for="name">Nome</label>
                         </div>
-                        <textarea id="message" placeholder="Escreva sua mensagem" maxlength="200"></textarea>
+                        <textarea id="message" placeholder="Escreva sua mensagem" maxlength="200" required></textarea>
                         <button class="btn" type="submit">Enviar Mensagem</button>
                     </form>
                 </div>
@@ -73,6 +73,7 @@
             </div>
         </div>
     </footer>
+    
 </body>
 
 </html>

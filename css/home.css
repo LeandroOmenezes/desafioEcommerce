@@ -2,7 +2,7 @@
 .banner {
     height: 400px;
     color: var(--white-color);
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

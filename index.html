@@ -27,9 +27,9 @@
     </div>
     <div class="banner">
       <div class="container">
-        <h2 class="titulo bold">Festival de Chocolate</h2>
+        <h2 class="titulo">Festival de Consoles</h2>
         <p class="bold">Produtos selecionados com 33% de desconto!</p>
-        <a href="#ofertas"><button class="btn titulo banner-btn">Ver ofertas</button></a>
+        <a href="#consoles"><button class="btn titulo banner-btn">Ver ofertas</button></a>
       </div>
     </div>
   </header>
@@ -39,7 +39,10 @@
         <h3 class="titulo" id="nestle">Nestlé</h3>
         <a href="produtos.html">Ver tudo<i class="fa-solid fa-arrow-right-long"></i></a>
       </div>
-    </div> 
+    </div>
+    <section class="container-item" data-product>
+      <!--Adição de produtos renderizados em js-->
+    </section> 
   </main>
   <footer>
     <div class="info-contato">
@@ -57,7 +60,7 @@
         </div>
         <div class="container-info-form">
           <p class="bold titulo">Fale conosco</p>
-          <form action="#">
+          <form>
             <div class="single-input">
               <input type="text" id="name" maxlength="50" required>
               <label for="name">Nome</label>
@@ -78,8 +81,9 @@
       </div>
     </div>
   </footer>
-  <script src="./js/data.js"></script>
-  <script src="./js/home.js"></script>
+  <script src="./controllers/data.js"></script>
+  <script src="./controllers/home.js"></script>
+  <script type="module" src="./controllers/produtos-controllers.js"></script>
 </body>
 
 </html>
